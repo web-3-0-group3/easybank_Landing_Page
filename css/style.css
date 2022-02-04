@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+/*____Choose Easybank____*/
+.Easybank-bg {
+    background-color:hsl(220, 16%, 96%);
+  }
+  .Easybank {
+    max-width: 1350px;
+}
