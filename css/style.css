@@ -83,6 +83,38 @@ cursor:pointer;
 }
 
 /* Media Query */
+@media (max-width: 768px) {
+    h1{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 0.6rem;
+    }
+    .btn1 {
+        background: #388b35;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .hero {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero-bg {
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        width: 750px;
+    }
+    .phone-img{
+        height: 400px;
+        width: 350px;
+        padding-bottom: 1.2rem;
+    }
+    
+}
 
 @media (max-width: 500px) {
     h1{
@@ -107,17 +139,11 @@ cursor:pointer;
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
-        width: 500px;
-        position: relative;
-        top: -3rem;
-        right: -0.5rem;
+        width: 400px;
     }
     .phone-img{
-        height: 400px;
-        width: 300px;
-        position: relative;
-        top: -5rem;
-        right: -8rem;
+        height: 300px;
+        width: 250px;
     }
     
 }
@@ -147,13 +173,11 @@ cursor:pointer;
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
-        width: 200px;
-        /* position: relative;
-        top: -3rem; */
+        width: 300px;
     }
     .phone-img{
         height: 200px;
-        width: 200px;
+        width: 150px;
     }
     
 }
