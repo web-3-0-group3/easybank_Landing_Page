@@ -3,6 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navv{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: hsl(136, 65%, 51%);
+  border-radius: 12px;
+  border: none;
+}  
+.Card-text{
+font-weight: bold;
+}
+.cap{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+.mob{
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+}
+h5{
+font-size: bold;
+font-weight: 300;
+}
+.cam{
+font-weight: 400;
+}
+.nav-link{
+cursor:pointer;
+}
+.map{
+cursor:pointer;
+}
 
 .hero {
     display: flex;
@@ -25,8 +61,8 @@
 }
 .phone-img{
     height: 700px;
-    position: relative;
-    top: -5rem;
+    /* position: relative; */
+    /* top: -5rem; */
 }
 .footer{
     background: hsl(233, 26%, 24%);
@@ -110,16 +146,14 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width: 500px;
-        position: relative;
-        top: -3rem;
+        height: 200px;
+        width: 200px;
+        /* position: relative;
+        top: -3rem; */
     }
     .phone-img{
-        height: 400px;
-        width: 300px;
-        position: relative;
-        top: -5rem;
+        height: 200px;
+        width: 200px;
     }
     
 }
