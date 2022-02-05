@@ -1,4 +1,4 @@
-# Easybank_Landing_Page
+# Easybank Landing Page
 
 ## A landing page developed as path of frontend developer roadmap.
 
