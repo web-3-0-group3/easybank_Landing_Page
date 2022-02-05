@@ -11,7 +11,7 @@
     padding-left: 3rem;
 }
 .btn1 {
-    background: #388b35;
+    background: hsl(136, 65%, 51%);
     color: white;
 }
 .hero-bg {
@@ -32,8 +32,6 @@
     background: hsl(233, 26%, 24%);
 }
 .btn2{
-    border-radius: 50px;
-    padding: 10px 40px;
     background: hsl(136, 65%, 51%);
 }
 .link-light:hover{
