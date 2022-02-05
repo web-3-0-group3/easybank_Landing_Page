@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: hsl(136, 65%, 51%);
+  border-radius: 12px;
+  border: none;
+}  
+.Card-text{
+font-weight: bold;
+}
+.cap{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+.mob{
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+}
+h5{
+font-size: bold;
+font-weight: 300;
+}
+.cam{
+font-weight: 400;
+}
+.nav-link{
+cursor:pointer;
+}
+.map{
+cursor:pointer;
+}
+
+.hero {
+    display: flex;
+}
+.side1{
+    padding-left: 3rem;
+}
+.btn1 {
+    background: hsl(136, 65%, 51%);
+    color: white;
+}
+.hero-bg {
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 600px;
+        
+}
+.phone-img{
+    height: 700px;
+    /* position: relative; */
+    /* top: -5rem; */
+}
+.footer{
+    background: hsl(233, 26%, 24%);
+}
+.btn2{
+    background: hsl(136, 65%, 51%);
+}
+.link-light:hover{
+    color: hsl(136, 65%, 51%);
+}
+  
+/*____Choose Easybank____*/
+.Easybank-bg {
+    background-color:hsl(220, 16%, 96%);
+  }
+  .Easybank {
+    max-width: 1350px;
+}
+
+/* Media Query */
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 0.6rem;
+    }
+    .btn1 {
+        background: #388b35;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .hero {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero-bg {
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 500px;
+        position: relative;
+        top: -3rem;
+        right: -0.5rem;
+    }
+    .phone-img{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        top: -5rem;
+        right: -8rem;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    h1{
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+    p{
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .btn1 {
+        background: #388b35;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .hero {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero-bg {
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        /* position: relative;
+        top: -3rem; */
+    }
+    .phone-img{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
