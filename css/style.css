@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero {
     display: flex;
 }
@@ -22,6 +28,28 @@
     position: relative;
     top: -5rem;
 }
+.footer{
+    background: hsl(233, 26%, 24%);
+}
+.btn2{
+    border-radius: 50px;
+    padding: 10px 40px;
+    background: hsl(136, 65%, 51%);
+}
+.link-light:hover{
+    color: hsl(136, 65%, 51%);
+}
+  
+/*____Choose Easybank____*/
+.Easybank-bg {
+    background-color:hsl(220, 16%, 96%);
+  }
+  .Easybank {
+    max-width: 1350px;
+}
+
+/* Media Query */
+
 @media (max-width: 500px) {
     h1{
         font-size: 1.6rem;
