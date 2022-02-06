@@ -11,4 +11,7 @@ Blessing:
 
 Damilola
 - I worked on the footer, I used grid column to put the page in order.
-  
+
+Toluwani
+- I worked on the about page 
+- To achieve responsiveness, I used the Bootstrap’s grid system and a css media query of 991px in max-width.
