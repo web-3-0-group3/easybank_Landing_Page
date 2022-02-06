@@ -8,4 +8,7 @@ Blessing:
 
   - I worked on hero part of the page.  
   - I have to use flex column reverse to rearrange the page
+
+Damilola
+- I worked on the footer, I used grid column to put the page in order.
   
