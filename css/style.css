@@ -83,7 +83,7 @@ cursor:pointer;
 }
 
 /* Media Query */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     h1{
         font-size: 1.6rem;
     }
@@ -148,7 +148,7 @@ cursor:pointer;
     
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
     h1{
         font-size: 1.5rem;
         letter-spacing: 3px;
@@ -173,7 +173,7 @@ cursor:pointer;
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
-        width: 260px;
+        width: 300px;
     }
     .phone-img{
         height: 200px;
